@@ -4,9 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import {AppProvider} from '@redshelf/rs-js-utils-client/es';
+import {AppProvider} from '@redshelf/rs-js-utils-client';
 
-console.log(AppProvider);
 ReactDOM.render(
   <React.StrictMode>
     <AppProvider>
